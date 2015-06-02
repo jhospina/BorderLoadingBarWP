@@ -1,0 +1,25 @@
+/* 
+    Created on : 15/09/2014, 10:43:49 PM
+    Author     : Ospisfot
+*/
+
+/*Contenedor de la barra de progreso*/
+#blb-osp-loading-bar-container{
+    position: fixed;
+    z-index: 9999999;
+    display:none;
+}
+
+/*Barra de progreso*/
+#blb-osp-loading-bar{
+    position: fixed;
+    z-index: 9999999;
+}
+
+/*Contenedor del texto*/
+#blb-osp-text{
+    position: absolute;
+    z-index: 99999999;
+    display: inline-block;
+    visibility: hidden;
+}
